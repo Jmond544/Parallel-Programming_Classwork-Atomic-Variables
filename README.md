@@ -1,5 +1,9 @@
 # Classwork: obtain the same number of Vegetable_count:
 
+- `Student:` Mondalgo Tapia, Juan Carlos.
+- `Course:` Parallel programming.
+- `University:` UNMSM.
+
 We have the source code of the program that counts the number of vegetables chopped by two threads. But we see that the number of vegetables is different for each thread. We need to fix the program so that the number of vegetables is the same for each thread.
 
 The file of the original program is [here](./Original_Code.cpp).
@@ -79,3 +83,10 @@ int main() {
 
 ## Result:
 
+- Before:
+
+    ![](./Demo_origin.gif)
+
+- After:
+
+    ![](./Demo_Adapted.gif)
